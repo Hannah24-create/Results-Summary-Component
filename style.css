@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;600;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Hanken Grotesk", sans-serif;
+    background-color: #f7f9fe;
+}
+
+.container {
+    width: 375px;
+    background-color: #f7f9fe;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.result {
+    background-color: hsl(234, 85%, 45%);
+    color: hsl(221, 100%, 96%);
+    text-align: center;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 80px;
+    padding: 30px;
+}
+
+.circle_div {
+    margin: 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right,
+            hsla(256, 72%, 46%, 0.5),
+            hsla(241, 72%, 46%, 1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.para {
+    font-size: 16px;
+    width: 30ch;
+    margin: 0 auto;
+}
+
+.box {
+    background-color: #ffffff;
+    color: #717581;
+    padding: 20px;
+}
+
+span{
+    font-weight: 800;
+    color: #3e4558;
+}
+.summary {
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    background-color: #fae9eb;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+
+.reaction-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pan1 {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: hsl(38, 90%, 92%);
+   
+}
+
+.Verbal {
+    background-color: hsl(165, 74%, 93%);
+}
+
+.Visual {
+    background-color: hsl(233, 85%, 92%);
+}
+
+.verb {
+    color: hsl(166, 100%, 37%);
+}
+
+.virt {
+    color: hsl(234, 85%, 45%);
+}
+
+.button_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0e2c4a;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        width: 700px;
+        height: 500px;
+    }
+
+    .result {
+        flex: 1;
+        border-radius: 20px 0 0 20px;
+    }
+
+    .box {
+        flex: 1;
+        border-radius: 0 20px 20px 0;
+        padding: 40px;
+    }
+
+    .button {
+        width: 100%;
+    }
+}

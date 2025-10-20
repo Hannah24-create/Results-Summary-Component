@@ -20,7 +20,7 @@ The designs were created to the following widths:
 
 ## Gradients
 
-- Light slate blue (background): hsl(252, 100%, 67%)
+- Light slate blue (background): hsl(234, 85%, 45%)
 - Light royal blue (background): hsl(241, 81%, 54%)
 
 - Violet blue (circle): hsla(256, 72%, 46%, 1)
