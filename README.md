@@ -34,7 +34,8 @@ Now open `Contributors.md` file in a text editor, add your name to it and it sho
 ```bash
 ## Contributors
 
-- [Your Full Name](https://github.com/githubusername)
+- [HANNAH ODOI](https://github.com/Hannah24-Create)
+- [KATEY KWESI](https://github.com/Kateykwesi)
 ```
 
 ### Deploying your projects
@@ -54,8 +55,8 @@ This guide explains how to **invite a collaborator** to your GitHub repository, 
 
 Before inviting a collaborator, ensure that:
 
-- You have **forked the repository** from the **Codetopia Community Repo**.  
-- You have **Admin access** to the forked repository.  
+- You have **forked the repository** from the **Codetopia Community Repo**.
+- You have **Admin access** to the forked repository.
 - You have the **GitHub username or email** (associated with GitHub) of the collaborator you have been assigned to.
 
 ---
@@ -64,7 +65,7 @@ Before inviting a collaborator, ensure that:
 
 To learn how to invite a collaborator, follow the steps demonstrated in the video below:
 
-**[Watch the tutorial video on how to invite a collaborator to your GitHub repository](https://youtu.be/yx3VkC6z2EE?si=UtOlFGYkwtSB7NyE)**  
+**[Watch the tutorial video on how to invite a collaborator to your GitHub repository](https://youtu.be/yx3VkC6z2EE?si=UtOlFGYkwtSB7NyE)**
 
 ---
 
